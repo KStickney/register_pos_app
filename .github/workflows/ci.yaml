@@ -1,4 +1,4 @@
-name: Cidrbot PY CI
+name: Register POS
 on:
   pull_request:
     branches: [main]
