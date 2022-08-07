@@ -1,0 +1,4 @@
+shutil
+pandas
+PyQt5
+openpyxl

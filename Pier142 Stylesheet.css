@@ -1,0 +1,92 @@
+f"""
+        #QWidget{{
+            background-color: purple;
+        }}
+
+        QPushButton#department-menu{{
+            background-color: grey;
+            border-style: outset;
+            border-width: 2px;
+            border-radius: 20px;
+            border-color: black;
+            padding: 4px;
+            font: bold 18px;
+        }}
+
+        QPushButton#department-menu:checked{{
+            background-color: rgba(50,50,100,1);
+            border-style: inset;
+        }}
+
+        QLabel#cart-main-label{{
+            font: bold 14px;
+            fontName: Cursive;
+        }}
+
+        QLabel#cart-total{{
+            font: bold 16px
+        }}
+
+        QLabel#cart-item{{
+            font: bold 14px
+        }}
+
+        QPushButton#cart-button{{
+            background-color: grey;
+            border-style: outset;
+            border-width: 1px;
+            border-radius: 10px;
+            border-color: black;
+            padding: 0px;
+            font: 12px;
+            max-height: {cart_btn_height};
+            max-width: {cart_btn_width};
+            min-height: {cart_btn_height};
+            min-width: {cart_btn_width};
+            background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #fff, stop: 1 #888
+            );
+        }}
+
+        QLabel#cart-quantity{{
+            font: bold 16px
+            max-height: {cart_btn_height};
+            max-width: {cart_btn_width};
+            min-height: {cart_btn_height};
+            min-width: {cart_btn_width};
+        }}
+
+        QLabel#cart-total-quantity{{
+            font: bold 14px
+            max-height: {cart_btn_height};
+            max-width: {cart_btn_width};
+            min-height: {cart_btn_height};
+            min-width: {cart_btn_width};
+        }}
+
+        QLabel#cart-align{{
+            max-height: {cart_btn_height};
+            max-width: {cart_btn_width};
+            min-height: {cart_btn_height};
+            min-width: {cart_btn_width};
+        }}
+
+        QMenu{{
+            background-color: #2e2e2e;
+        }}
+
+        QLineEdit, QTextEdit{{
+            border: 1.4px solid black;
+            border-radius: 5px;
+            padding: 0 8px;
+            background: white;
+        }}
+
+        #QMainWindow{{
+            background-color:grey;
+        }}
+
+
+
+        """
